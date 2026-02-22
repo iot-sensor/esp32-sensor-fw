@@ -1,0 +1,29 @@
+# Build
+build/
+build_*/
+
+# SDK config
+sdkconfig
+sdkconfig.old
+
+# Python
+.env
+venv/
+.venv/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# ESP-IDF deps
+managed_components/
+dependencies.lock
