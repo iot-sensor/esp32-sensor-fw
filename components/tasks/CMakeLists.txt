@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "bme.c"
+    SRCS "bme280_task.c"
     INCLUDE_DIRS "." "../include"
-    REQUIRES driver
+    REQUIRES bme280
 )

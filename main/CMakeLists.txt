@@ -3,8 +3,8 @@
 
 idf_component_register(
     SRCS main.c
-    INCLUDE_DIRS  "../components/bme280" "../components/include" "../components/i2c"
+    INCLUDE_DIRS  "."
     PRIV_INCLUDE_DIRS   
-    REQUIRES     bme280 driver       
+    REQUIRES     tasks       
     PRIV_REQUIRES
 )
